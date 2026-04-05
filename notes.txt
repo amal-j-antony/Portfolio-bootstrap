@@ -1,0 +1,10 @@
+1.Twitter
+2.Linkedin
+3.Email
+4.Whatsapp
+5.Telegram
+6.Resume
+7.Project Gallery
+8.Blog
+9.About
+10.Timline

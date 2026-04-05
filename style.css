@@ -1,0 +1,67 @@
+
+.imgWrapper {
+    background-image: url(./MEDIA/baptiste-buisson-W2nwTMiorTU-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+a:link {
+    color: inherit;
+}
+
+a:visited {
+    color: inherit;
+}
+
+.hero {
+    background-image: url(./MEDIA/pexels-diva-30413087.jp);
+    height: 10rem;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.hero p {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 600;
+    font-size: 3.5rem;
+}
+
+.cardMain {
+    height: 10rem;
+    background: rgba(255, 255, 255, 0.008);
+    transition: background-color 2s  ;
+    animation: backInDown;
+    /* animation-delay: 4s; */
+    animation-duration: 5s;
+}
+
+.cardMain a {
+    padding: 0 7rem;
+}
+
+.cardMain:hover {
+    background-color: rgba(240, 248, 255, 0.33);
+}
+
+.carousel-item {
+    flex-shrink: 0;
+    width: 100%;
+    flex-wrap: nowrap;
+}
+
+.icon {
+    font-size: 3rem;
+}
+
+.carouselTwoItem {
+    height: 20rem;
+    background-color: rgba(255, 255, 255, 0.108);
+}
+
+.carouselTwoItem img {
+    height: 12rem;
+    border-radius: 1rem;
+}
