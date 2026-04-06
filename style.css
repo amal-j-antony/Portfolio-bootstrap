@@ -1,3 +1,7 @@
+* {
+    /* outline: 1px red solid; */
+}
+
 .imgWrapper {
     background-image: url(./MEDIA/baptiste-buisson-W2nwTMiorTU-unsplash.jg);
     background-position: center;
@@ -81,11 +85,11 @@ a:visited {
     background-color: rgba(211, 211, 211, 0.093);
     padding: 2rem;
     animation: backInLef 2s;
-    transition: background-color 3s;
+    transition: background-color 2s;
 }
 
 .carouselTwoItem:hover {
-    background-color: rgba(8, 0, 0, 0.859);
+    background-color: rgba(131, 131, 131, 0.859);
 }
 
 .carouselTwoItem img {
@@ -97,4 +101,24 @@ a:visited {
 
 .skills i {
     font-size: 4rem;
+}
+
+@media screen and (max-width:992px) {
+    .carouselTwoItem img {
+        height: 7.5rem;
+    }
+
+    .carouselTwoItem p {
+        font-size: 2rem;
+    }
+
+    .carouselTwoItem {
+        padding: .5rem;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .carouselTwoItem p {
+        font-size: 1rem;
+    }
 }
