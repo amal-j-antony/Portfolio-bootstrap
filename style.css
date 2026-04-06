@@ -26,20 +26,22 @@ a:visited {
 .hero p {
     font-family: "Bebas Neue", sans-serif;
     font-weight: 600;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
 }
 
 .cardMain {
     height: 10rem;
+    width: 22%;
     background: rgba(255, 255, 255, 0.008);
     transition: background-color 2s  ;
-    animation: backInDown;
+    animation: backInDow;
     /* animation-delay: 4s; */
     animation-duration: 5s;
 }
 
 .cardMain a {
-    padding: 0 7rem;
+    padding-left: 8%;
+    padding-right: 8%;
 }
 
 .cardMain:hover {
@@ -57,11 +59,19 @@ a:visited {
 }
 
 .carouselTwoItem {
-    height: 20rem;
+    height: 15rem;
     background-color: rgba(255, 255, 255, 0.108);
+    width: 32%;
+    padding: 2rem;
 }
 
 .carouselTwoItem img {
-    height: 12rem;
+    height: 10rem;
+    width:90%;
     border-radius: 1rem;
+}
+
+.modal-content {
+    background-color: rgba(0, 0, 0, 0.866);
+    color: white;
 }
